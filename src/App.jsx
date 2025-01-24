@@ -1,9 +1,13 @@
 import './App.css';
 
+// Componente Header
 function App() {
-
-  return <h1>Hello World</h1>;
-    
+  return (
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <p>¡Bienvenido al juego de Tic-Tac-Toe!</p>
+    </header>
+  );
 }
 
 export default App;
