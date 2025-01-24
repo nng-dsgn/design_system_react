@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <header>
-      <h1>Tic Tac Toe</h1>
-      <p>¡Bienvenido al juego de Tic-Tac-Toe!</p>
+      <h1>Design System React</h1>
+      <p>¡Bienvenido al Design System React!</p>
     </header>
   );
 }
