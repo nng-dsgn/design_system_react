@@ -1,0 +1,16 @@
+.cb-page-title {
+    color: var(--cb-color-text-primary, #000);
+    font-family: var(--cb-font-family-title, 'Inter');
+}
+
+.cb-page-title--xs {
+    font-size: var(--cb-font-size-page-title);
+}
+
+.cb-page-title--md {
+    font-size: var(--cb-font-size-page-title);
+}
+
+.cb-page-title--lg {
+    font-size: var(--cb-font-size-page-title);
+}
