@@ -13,7 +13,7 @@
 }
 
 [data-icon]:before {
-  font-family: "caba-icons" !important;
+  font-family: "caba-icons", sans-serif !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="cb-icons-"]:before,
 [class*=" cb-icons-"]:before {
-  font-family: "caba-icons" !important;
+  font-family: "caba-icons", sans-serif !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
