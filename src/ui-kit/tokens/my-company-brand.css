@@ -1,11 +1,65 @@
 :root {
+
+    /* font */
+    --cb-font-size-body--xs: 14px;
+    --cb-font-size-body--sm: 16px;
+    --cb-font-size-body--md: 18px;
+    --cb-font-size-body--lg: 22px;
+    --cb-font-size-subtitle--xs: 32px;
+    --cb-font-size-subtitle--md: 40px;
+    --cb-font-size-subtitle--lg: 48px;
+    --cb-font-size-page-title: 61px;
+    --cb-font-family-body: Inter;
+    --cb-font-family-title: Inter;
+
+
+    /* surface */
     --cb-color-surface-bg: var(--cb-color-neutrals-white);
+    --cb-color-surface-disabled: var(--cb-color-neutrals-100);
+    --cb-color-surface-success: var(--cb-color-green-400);
+    --cb-color-surface-danger: var(--cb-color-red-400);
     --cb-color-surface-primary: var(--cb-color-brand-orange);
-    /* ... */
+    --cb-color-surface-secondary: var(--cb-color-orange-100);
+    --cb-color-surface-primary_hover: var(--cb-color-orange-600);
+
+
+    /* border */
+    --cb-color-border-focused: var(--cb-color-brand-orange);
+    --cb-color-border-sucess: var(--cb-color-green-400);
+    --cb-color-border-error: var(--cb-color-red-400);
+    --cb-color-border-primary: var(--cb-color-neutrals-200);
+
+    /* icon */
+    --cb-color-icon-primary: var(--cb-color-neutrals-black);
+    --cb-color-icon-invert: var(--cb-color-neutrals-white);
+
+    /* text */
+    --cb-color-text-secondary: var(--cb-color-neutrals-600);
+    --cb-color-text-invert: var(--cb-color-neutrals-white);
     --cb-color-text-primary: var(--cb-color-neutrals-black);
-    /* ... completar con el resto de tokens de color del branding siguiendo su estructura de grupos y subgrupos */
+
+    /* spacing */
+    --cb-spacing-xxs: 4px;
+    --cb-spacing-xs: 8px;
+    --cb-spacing-sm: 16px;
+    --cb-spacing-md: 12px;
+    --cb-spacing-lg: 24px;
+    --cb-spacing-xl: 32px;
+
+    /* elevation */
     --cb-elevation-none: 0;
-    --cb-elevation-sm: 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 3px 1px -2px rgba(0, 0, 0, 0.05),
-      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-    /* ... completar con el resto de tokens de la marca*/
+    --cb-elevation-sm: 0px 2px 2px 0px rgba(0,0,0,0.10), 0px 3px 1px -2px rgba(0,0,0,0.05), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    --cb-elevation-md: 0px 8px 20px 1px rgba(0,0,0,0.05), 0px 3px 14px 5px rgba(0,0,0,0.05), 0px 5px 10px -5px rgba(0,0,0,0.03);
+    --cb-elevation-lg: 0px 16px 20px 2px rgba(0,0,0,0.05), 0px 6px 20px 3px rgba(0,0,0,0.05), 0px 16px 14px -5px rgba(0,0,0,0.03);
+    
+    /* border */
+    --cb-border-width-none: 0px;
+    --cb-border-width-sm: 1px;
+    --cb-border-width-md: 2px;
+    --cb-border-width-lg: 4px;
+    --cb-border-radius-none: 0px;
+    --cb-border-radius-sm: 4px;
+    --cb-border-radius-md: 8px;
+    --cb-border-radius-lg: 16px;
+    --cb-border-radius-circle: 50%;
   }
