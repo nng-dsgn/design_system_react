@@ -1,4 +1,6 @@
-import './App.css';
+import "./ui-kit/atoms/icon/font-icons.css";
+import "./App.css";
+
 
 // Componente Header
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <header>
       <h1>Design System React</h1>
       <p>¡Bienvenido al Design System React!</p>
+      <i className="cb-icons-checkmark-circle"></i>
+
     </header>
   );
 }

@@ -7,6 +7,10 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: var(--cb-color-surface-bg);
+  /** add temporary width and height to see the theming. Remove after testing **/
+  width: 100vw;
+  height: 100vh;
 }
 
 ul {
