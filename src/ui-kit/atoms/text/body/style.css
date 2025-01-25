@@ -1,0 +1,20 @@
+.cb-body {
+    color: var(--cb-color-text-primary, #000);
+    font-family: var(--cb-font-family-body, 'Inter');
+}
+
+.cb-body--xs {
+    font-size: var(--cb-font-size-body--xs);
+}
+
+.cb-body--sm {
+    font-size: var(--cb-font-size-body--sm);
+}
+
+.cb-body--md {
+    font-size: var(--cb-font-size-body--md);
+}
+
+.cb-body--lg {
+    font-size: var(--cb-font-size-body--lg);
+}
