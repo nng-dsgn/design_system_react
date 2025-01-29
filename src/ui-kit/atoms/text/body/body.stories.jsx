@@ -1,11 +1,11 @@
-import PageTitle from ".";
+import Body from ".";
 
 export default {
-    title: "Atoms/Text/PageTitle",
-    component: PageTitle,
+    title: "Atoms/Text/Body",
+    component: Body,
     args: {
-      size: "PageTitle",
-      children: "Example PageTitle",
+      size: "Body",
+      children: "Example Body",
     },
     argTypes: {
       size: {
@@ -24,9 +24,9 @@ export default {
   export const FigmaDemo = {
     render: () => (
       <>
-        <PageTitle size="xs">Título de Página Pequeño</PageTitle>
-        <PageTitle size="md">Título de Página Mediano</PageTitle>
-        <PageTitle size="lg">Título de Página Grande</PageTitle>
+        <Body size="xs">Texto pequeño del cuerpo</Body>
+        <Body size="sm">Texto mediano del cuerpo</Body>
+        <Body size="lg">Texto grande del cuerpo</Body>
       </>
     ),
   };

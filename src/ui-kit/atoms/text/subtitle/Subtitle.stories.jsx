@@ -26,9 +26,9 @@ export default {
     render: () => (
       // añadimos la propiedad render, que no deja de ser una función que devuelva JSX, como un componente normal de react
       <>
-        <Subtitle size="xs">Lorem ipsum dolor sit amet.</Subtitle>
-        <Subtitle size="md">Lorem ipsum dolor sit amet.</Subtitle>
-        <Subtitle size="lg">Lorem ipsum dolor sit amet.</Subtitle>
+        <Subtitle size="xs">Subtítulo pequeño</Subtitle>
+        <Subtitle size="md">Subtítulo mediano</Subtitle>
+        <Subtitle size="lg">Subtítulo grande</Subtitle>
       </>
     ),
   };
