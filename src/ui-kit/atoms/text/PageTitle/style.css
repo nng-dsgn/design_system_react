@@ -1,0 +1,16 @@
+.cb-page-title {
+    color: var(--cb-color-text-primary);
+    font-family: var(--cb-font-family-title);
+}
+
+.cb-page-title--xs {
+    font-size: var(--cb-font-size-page-title--xs);
+}
+
+.cb-page-title--md {
+    font-size: var(--cb-font-size-page-title--md);
+}
+
+.cb-page-title--lg {
+    font-size: var(--cb-font-size-page-title--lg);
+}
