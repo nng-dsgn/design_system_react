@@ -8,9 +8,11 @@
     --cb-font-size-subtitle--xs: 32px;
     --cb-font-size-subtitle--md: 40px;
     --cb-font-size-subtitle--lg: 48px;
-    --cb-font-size-page-title: 61px;
-    --cb-font-family-body: Inter;
-    --cb-font-family-title: Inter;
+    --cb-font-size-page-title--lg: 61px;
+    --cb-font-size-page-title--md: 51px;
+    --cb-font-size-page-title--xs: 41px;
+    --cb-font-family-body: 'Inter', sans-serif;
+    --cb-font-family-title: 'Inter', sans-serif;
 
 
     /* surface */

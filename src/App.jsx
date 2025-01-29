@@ -1,7 +1,7 @@
 import "./App.css";
 import "./ui-kit/atoms/icon/font-icons.css";
 import Subtitle from "./ui-kit/atoms/text/subtitle";
-import PageTitle from "./ui-kit/atoms/text/page-title";
+import PageTitle from "./ui-kit/atoms/text/PageTitle";
 import Body from "./ui-kit/atoms/text/body";
 import Icon from "./ui-kit/atoms/icon";
 
